@@ -68,8 +68,8 @@
                         <div class="collapse" id="collapseCategory" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="index.html">All</a>
-                                <a class="nav-link" href="create.html">Add</a>
+                                <a class="nav-link" href="http://localhost/js/admin/category/index.html">All</a>
+                                <a class="nav-link" href="http://localhost/js/admin/category/create.html">Add</a>
                             </nav>
                         </div>
                         <!-- Product -->
@@ -82,12 +82,25 @@
                         <div class="collapse" id="collapseProduct" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="index.html">All</a>
-                                <a class="nav-link" href="create.html">Add</a>
+                                <a class="nav-link" href="http://localhost/js/admin/product/index.html">All</a>
+                                <a class="nav-link" href="http://localhost/js/admin/product/create.html">Add</a>
+                            </nav>
+                        </div>
+                        <!-- User -->
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                            data-bs-target="#collapseUser" aria-expanded="false" aria-controls="collapseUser">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            User
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseUser" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="http://localhost/js/admin/user/index.html">All</a>
+                                <a class="nav-link" href="http://localhost/js/admin/user/create.html">Add</a>
                             </nav>
                         </div>
 
-                        </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
@@ -106,7 +119,7 @@
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
-                            Edit Category
+                            Edit Product
                         </div>
                         <div class="card-body">
                             <div>
@@ -167,7 +180,7 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const id = urlParams.get('id')
-        edit_products(id)
+        edit_users(id)
     </script>
 </body>
 

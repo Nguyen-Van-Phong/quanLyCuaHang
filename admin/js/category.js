@@ -85,9 +85,7 @@ function create_category(name) {
     $.post(BASE_URL + '/category/create.php', params, function(data){
         if (data.status == true) {
             window.location.href = 'index.html'
-        } else {
-            alert('Failed create')
-        }
+        } 
     })
 }
 

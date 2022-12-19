@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #7cdef2;
+    --primary-color: #3bbdaf;
 }
 
 /* Header */
@@ -10,6 +10,16 @@
     border-radius: 50%;
     width: 30px;
     margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+    background-color: bisque;
+}
+.room{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
 }
 
 .header-left > button:hover,
@@ -24,6 +34,9 @@
     height: 30px;
 }
 .ti-search {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
     height: 30px;
 }
 
@@ -41,7 +54,10 @@
     width: 30px;
     height: 30px;
     margin-top: 10px;
-    margin-right: 3px;
+    margin-right: 10px;
+    color: red;
+    font-weight: bold;
+    background-color: bisque;
     float: right;
 
 }
@@ -72,6 +88,13 @@
 .btn:hover {
     background-color: red;
     color: #fff;
+}
+
+#btn-food, #btn-drink{
+   background-color: #fcac8c;
+}
+#btn-food,#btn-drink:hover{
+   background-color: #ed865d;
 }
 .product-img {
     width: 100%;
@@ -124,7 +147,6 @@
 }
 
 
-
 .formheader {
     height: 30px;
 }
@@ -144,7 +166,7 @@
 
 .formbody {
     height: 500px;
-    background-color: #a0f1fa;
+    background-color: #ff9d39;
     border-bottom: 2px dotted #9c9c9c;
     padding: 0;
     overflow: auto;
@@ -163,9 +185,6 @@
     margin-top: 5px;
     float: left;
 }
-
-
-
 
 
 .datetime {
@@ -201,7 +220,7 @@
 
 /* PAY RIGHT */
 .input-info {
-    background-color: #b1c3d5;
+    background-color: #9b9093;
     height: 50%;
 }
 
@@ -245,7 +264,7 @@
 .money-superfluous button {
     border-radius: 5px;
     color: #fff;
-    background-color: #2f73e0;
+    background-color: #3bbdaf;
     border: none;
 }
 
