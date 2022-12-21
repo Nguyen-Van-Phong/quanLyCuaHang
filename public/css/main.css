@@ -15,6 +15,16 @@
     font-weight: bold;
     background-color: bisque;
 }
+.nameI{
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+    background-color: bisque;
+    float: right;
+}
 .room{
     margin-left: 10px;
     color: white;
@@ -79,6 +89,7 @@
 }
 
 .btn {
+   
     width: 100%;
     background-color: var(--primary-color);
     height: 36px;
@@ -91,10 +102,10 @@
 }
 
 #btn-food, #btn-drink{
-   background-color: #fcac8c;
+   background-color: #3bbdaf;
 }
 #btn-food,#btn-drink:hover{
-   background-color: #ed865d;
+   background-color: #3bbdaf;
 }
 .product-img {
     width: 100%;
@@ -166,7 +177,7 @@
 
 .formbody {
     height: 500px;
-    background-color: #ff9d39;
+    background-color: bisque;
     border-bottom: 2px dotted #9c9c9c;
     padding: 0;
     overflow: auto;

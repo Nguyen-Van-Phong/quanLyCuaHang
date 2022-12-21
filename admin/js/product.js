@@ -94,7 +94,7 @@ function create_products(name,price,img,cat_id) {
         if (data.status == true) {
             window.location.href = 'index.html'
         } else {
-            alert('Failed create')
+            alert('successful create')
         }
     })
 }
@@ -134,7 +134,7 @@ function update_products(id, name,img,price){
         if (data.status == true) {
             window.location.href = 'index.html'
         } else {
-            alert('Failed create')
+            alert('successful create')
         }
     })
 }

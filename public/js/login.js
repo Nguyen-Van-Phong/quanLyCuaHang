@@ -23,6 +23,7 @@ function doRegister() {
     let password = document.getElementById('password').value
 
     register(email, password)
+
 }
 
 function register(email, password) {
@@ -32,8 +33,8 @@ function register(email, password) {
         if (res.code == true) {
             window.location = 'login.html'
         } else 
-         
-            window.location = 'login.html'
+        window.location = 'login.html'
+           alert('ok')
             
     })
 }

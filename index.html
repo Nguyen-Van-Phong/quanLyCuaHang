@@ -4,6 +4,7 @@
     <title>Quan an</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="public/css/main.css">
     <link rel="stylesheet" href="public/img/themify-icons/themify-icons.css">
@@ -14,6 +15,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    <style>
+       .regis{
+        padding: 0px 10px;
+        margin-left:10px;
+        color: white;
+        background-color: black;
+       }
+        .regis:hover{
+            color:black;
+            background-color: cadetblue;
+        }
+        .icon_user{
+            font-size: 25px;
+           padding: 10px 0px;
+           margin-left: 65%;
+           color:black;
+        }
+    </style>
     <div id="wrapper">
         <header class="header">
             <div class="container-fluid">
@@ -28,11 +47,16 @@
                             <button class="nameC">C</button>
                             <button class="nameD">D</button>
                             <button class="nameD"><i class="ti-pencil-alt"></i></button>
-
+                            
+                           <a href="register.html"> <button class="regis ">Đăng kí</button></a>
+                           <a href="login.html"> <button class="regis ">Đăng nhập</button></a>
+                        
                         </div>
                     </div>
                     <div class="col-md-5">
                         <div class="header-right">
+                             <a href="./admin/category/"><i class="fa-solid fa-user icon_user"></i></a>
+                           
                             <button class="btnheader"><i class="ti-power-off"></i></button>
                             <button class="btnheader"><i class="ti-menu-alt"></i></button>
                             <button class="btnheader"><i class="ti-cloud"></i></button>

@@ -62,7 +62,7 @@ function delete_category(id) {
         if (data.status == true) {
             location.reload();
         } else {
-            alert('Failed delete')
+            alert('successful delete')
         }
     })
 }
@@ -85,7 +85,10 @@ function create_category(name) {
     $.post(BASE_URL + '/category/create.php', params, function(data){
         if (data.status == true) {
             window.location.href = 'index.html'
-        } 
+        }else{
+            alert('successful')
+            window.location.href = 'index.html'
+        }
     })
 }
 
@@ -112,7 +115,7 @@ function update_category(id, name){
         if (data.status == true) {
             window.location.href = 'index.html'
         } else {
-            alert('Failed create')
+            alert('successful create')
         }
     })
 }
